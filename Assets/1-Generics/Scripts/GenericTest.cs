@@ -11,12 +11,12 @@ namespace Generics
         public GameObject prefab;
         public int spawnAmount = 20;
         public float spawnRadius = 50f;
-        public CustomList<GameObject> gameObjects = new CustomList<GameObject>();
+        public CustomList<int> gameObjects = new CustomList<int>();
 
         // Use this for initialization
         void Start()
         {
-            gameObjects.Add()
+            gameObjects.Add(spawnAmount);
         }
 
         // Update is called once per frame
